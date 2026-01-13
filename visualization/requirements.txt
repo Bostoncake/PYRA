@@ -1,0 +1,17 @@
+# Visualization Requirements for PYRA
+# Install with: pip install -r visualization/requirements.txt
+
+# Core dependencies (should already be installed)
+torch>=1.10.0
+torchvision>=0.11.0
+numpy>=1.21.0
+pyyaml>=5.4.0
+
+# Visualization and analysis
+matplotlib>=3.4.0
+seaborn>=0.11.0
+scikit-learn>=1.0.0
+umap-learn>=0.5.0  # Optional but recommended for UMAP plots
+
+# Progress bars (optional)
+tqdm>=4.62.0
